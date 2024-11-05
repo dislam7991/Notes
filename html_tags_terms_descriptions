@@ -6,3 +6,5 @@
 <ol> </ol>  ....................  # creates an ordered list (with numbers)
 <li> </li>  ....................  # creates an item within a list
 <a> </a>  ......................  # anchor tag
+<a href="https://www.example.com"> </a>  ..  # attribute 'href' makes it so the value in quotes "" links to the website.
+

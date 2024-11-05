@@ -1,0 +1,33 @@
+# Issues I came across in my quest for knowledge and their solutions or lack thereof
+
+<h1>
+ISSUES
+</h1>
+
+<h2>  ISSUE 1  </h2>
+<p>
+  <ul>
+    <li>
+      Could not use GitHub extension in VS Code on my personal laptop like I could on my work laptop (wasn't synced to same repository, etc)
+      -> tried installing GitHub extension
+      -> tried pulling from GitHub repository
+    </li>
+  </ul>
+</p>
+
+<h2>  Insights  </h2>
+-> Personal laptop VSCode was pointing to a different repository (wrong repos.)
+-> Tried deleting current remote, adding "webdev" remote, and pulling changes, but didn't work.
+  -> Couldn't authenticate on personal laptop without a public key.
+** Solution **
+Create and Add Multiple SSH keys, one for each device (personal, work laptops).
+  pros: can manage, and limit access for each device with an SSH key, if needed. GitHub lets you add multiple keys.
+-> Generate keys and add to GitHub account, and store passkeys/passphrases in BitWarden (pw manager)
+
+<h2> ISSUE 2 </h2>
+Could not do in VS Code Powershell terminal.
+  -> terminated session, launched powershell in admin mode, located my SSH key i generated, 
+  -> added SSH Key to my 'ssh-agent' (openssl)
+  -> added SSH Key to my GitHub account
+
+-> Success

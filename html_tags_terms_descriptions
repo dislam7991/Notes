@@ -1,0 +1,8 @@
+<h1> </h1>  ....................  # Largest Header. Opener and closer 
+<h2> </h2>  ....................  # 2nd Largest header (opener and closer bracket)
+<hr> or <hr />  ................  # Horizontal rule - creates large horizontal divider on page. 
+<br> or <br />  ................  # break, pretty much an [enter] 
+<ul> </ul>  ....................  # creates an unordered list (bullet points)
+<ol> </ol>  ....................  # creates an ordered list (with numbers)
+<li> </li>  ....................  # creates an item within a list
+<a> </a>  ......................  # anchor tag

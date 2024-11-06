@@ -7,4 +7,13 @@
 <li> </li>  ....................  # creates an item within a list
 <a> </a>  ......................  # anchor tag
 <a href="https://www.example.com"> </a>  ..  # attribute 'href' makes it so the value in quotes "" links to the website.
+<img src="your-image-source-here"/>  ..  # adds an image asset from the image location (void tag)
 
+BOILERPLATE
+<html> </html>  ................  # html tag that tells server this is an html webpage
+<!DOCTYPE html>  ...............  # tells browser we have written our webpage in html5
+< html lang="en">  .............  # set language to english for english audience (for screen readers)
+<head> </head>  ................  # info that helps browser display webpage correctly (
+<meta> </meta>  ................  # includes metadata about the html document like character set, page description, keywords, author, viewport settings. placed within the <head> section. 
+<title> </title>  ..............  # makes title of webpage (what you see on the tab in your browser) and goes in <head> sectin
+<body> </body>  ................  # where content of website goes. text, images, videos, etc.
